@@ -1,0 +1,18 @@
+[project]
+name = "smart-clone"
+version = "0.2.0"
+description = "Intelligent repository cloner with pre-download analysis"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Ashraf", email = "fneed68@gmail.com"}]
+
+[project.urls]
+Homepage = "https://github.com/fneed68-commits/smart-clone"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["smart-clone"]
